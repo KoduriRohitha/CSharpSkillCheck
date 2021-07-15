@@ -11,7 +11,7 @@ namespace ProblemThree_CompleteSolution_BL
         public int itemCode{get; set;}
         public string itemName{get; set}
         private Dictionary<int,double> itemPrice{get; set;}
-        
+       
         public abstract double PayPerPiece(int quantity);
         public abstract double PayPerWeight(int weight);
 
