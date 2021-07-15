@@ -8,6 +8,19 @@ namespace ProblemThree_CompleteSolution_BL
 {
     public class GourmetCoffeeShop : GourmetShop, ITaxCompute
     {
-        
+       public double TotalBillValue {get;set;}
+       
+       public GourmetCoffeeShop(int iCode,string iName,Dictionary <int,double>iPrice){
+       
+       }
+       public double PayPerPrice(int quantity){
+       
+       }
+       public double PayPerWeight(int weight){
+       
+       }
+       public double TaxOnPrice(){
+       
+       }
     }
 }
